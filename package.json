@@ -1,0 +1,10 @@
+{
+  "name": "Engelbart_Keyboard",
+  "description": "An Arduino 5 fingered keyboa",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "3.3.3",
+    "socket.io" : "0.9.16"
+  }
+}

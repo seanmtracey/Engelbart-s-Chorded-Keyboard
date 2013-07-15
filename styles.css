@@ -1,0 +1,112 @@
+@charset "UTF-8";
+/* CSS Document */
+html{
+	height:100%;
+	width:100%;
+	background-color:rgb(245,245,245);
+	background-position:center 0px;
+	background-size:100%;
+
+}
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12pt;
+	margin:0px;
+	background-attachment: scroll;
+	background-repeat: repeat-y;
+	width:100%;
+	height:100%;
+}
+
+#content{
+	width:1000px;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+}
+
+#output{
+	display: block;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	color: black
+}
+
+.options{
+	background-color: rgba(0,0,0,.1);
+	font-size: 2em;
+	margin-bottom: 8px;
+	min-height: 37px;
+	text-align: center;
+	width: 200px;
+	position: fixed;
+	color: rgba(0,0,0,.5);
+}
+
+.options:first-letter{
+	font-weight: 800;
+	color: rgba(0,0,0,1);
+}
+
+#firstKey{
+	top:230px;
+	left: 300px;
+}
+
+#secondKey{
+	top: 100px;
+	left: 350px;
+}
+
+#thirdKey{
+	top: 10px;
+	left: 540px;
+}
+
+#fourthKey{
+	top: 100px;
+	left: 730px;
+}
+
+#fifthKey{
+	top: 220px;
+	left: 800px;
+}
+
+#currentResult{
+	display: block;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+}
+
+#hand{
+	position: fixed;
+	background-image: url('assets/images/hand.png');
+	width:380px;
+	height: 800px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	left: 50%;
+	top: 100px;
+	margin-left: -225px;
+}
+
+#message{
+	font-size: 40pt;
+	background-color: rgba(0,0,0,.6);
+	color: white;
+	padding: 5px 10px;
+	border: 0;
+	border-radius: 10px;
+	width: 500px;
+	position: fixed;
+	left: 50%;
+	bottom: 200px;
+	margin-left: -250px;
+	text-shadow: 0px 3px 2px #000;
+	text-align: center;
+}
